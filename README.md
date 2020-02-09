@@ -1,24 +1,11 @@
-# cat
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 2020.1.27 - 2020.2.09
+- 使用 Vue CLI 搭建项目
+- 制定代码规范定义了全局样式
+- 使用rem+flex布局，以及iconfont字体图标
+- 使用Vant 组件库、Scss 编写UI界面
+- 实现：上拉刷新、下拉加载、loading 
+- 使用 Vue Router搭建项目路由，使用Vuex处理组件通信
+- 使用代理，请求猫眼电影API，申明本地服务器获取本地数据
+- 使用路由守卫完成信息页、购票需要登录的功能
+- 使用axios、jsonp请求数据
+- 使用lodash的函数防抖，减少搜索电影时数据的请求次数
